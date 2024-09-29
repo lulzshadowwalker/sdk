@@ -351,7 +351,7 @@ files.
 The new entrypoint is "test.dart":
 
 ```sh
-$ ./tools/sdks/dart-sdk/bin/dart tools/test.dart -n analyzer-asserts-mac
+$ ./tools/test.dart -n analyzer-asserts-mac
 ```
 
 This ultimately uses the same test runner and works similar to "test.py",
