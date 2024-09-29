@@ -4,7 +4,7 @@
 
 import "package:expect/expect.dart";
 
-void testOneByteSting() {
+void testOneByteString() {
   // Compare one-byte-string toLowerCase with a two-byte-string toLowerCase.
   var oneByteString =
       new String.fromCharCodes(new List.generate(256, (i) => i)).toLowerCase();
@@ -15,5 +15,5 @@ void testOneByteSting() {
 }
 
 void main() {
-  testOneByteSting();
+  testOneByteString();
 }
